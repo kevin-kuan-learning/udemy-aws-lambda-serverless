@@ -1,0 +1,82 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "d693c29b-120e-4e01-8be8-78c3ddc3c396",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Tue, 16 Nov 2021 06:09:55 GMT",
+      "content-type": "application/json",
+      "content-length": "2958",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "d693c29b-120e-4e01-8be8-78c3ddc3c396"
+    },
+    "RetryAttempts": 0
+  },
+  "Functions": [
+    {
+      "FunctionName": "hello-world-ami-dev-hello-short-ami",
+      "FunctionArn": "arn:aws:lambda:us-east-1:219403303365:function:hello-world-ami-dev-hello-short-ami",
+      "Runtime": "python3.7",
+      "Role": "arn:aws:iam::219403303365:role/hello-world-ami-dev-us-east-1-lambdaRole",
+      "Handler": "handler.hello",
+      "CodeSize": 497,
+      "Description": "",
+      "Timeout": 6,
+      "MemorySize": 1024,
+      "LastModified": "2021-11-16T06:08:34.030+0000",
+      "CodeSha256": "Hb8wuBxnHsrhYuwzONOr7b7nWhMyJNN2B5yzhdFPIno=",
+      "Version": "$LATEST",
+      "TracingConfig": {
+        "Mode": "PassThrough"
+      },
+      "RevisionId": "cbb8fb7c-b643-404c-9da1-86a5aae62700",
+      "PackageType": "Zip",
+      "Architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "FunctionName": "hello-world-python-dev-hello-short-timeout",
+      "FunctionArn": "arn:aws:lambda:us-east-1:219403303365:function:hello-world-python-dev-hello-short-timeout",
+      "Runtime": "python3.7",
+      "Role": "arn:aws:iam::219403303365:role/hello-world-python-dev-us-east-1-lambdaRole",
+      "Handler": "handler.hello",
+      "CodeSize": 489,
+      "Description": "",
+      "Timeout": 2,
+      "MemorySize": 256,
+      "LastModified": "2021-11-16T05:49:41.726+0000",
+      "CodeSha256": "DKXcFhD6AUZ5Jk+j5SVvHiqnAiO8tgCd/TatKH46Qhg=",
+      "Version": "$LATEST",
+      "TracingConfig": {
+        "Mode": "PassThrough"
+      },
+      "RevisionId": "057a60c2-b707-4b8e-9039-cc4332e073a7",
+      "PackageType": "Zip",
+      "Architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "FunctionName": "hello-world-python-dev-hello-long-timeout",
+      "FunctionArn": "arn:aws:lambda:us-east-1:219403303365:function:hello-world-python-dev-hello-long-timeout",
+      "Runtime": "python3.7",
+      "Role": "arn:aws:iam::219403303365:role/hello-world-python-dev-us-east-1-lambdaRole",
+      "Handler": "handler.hello",
+      "CodeSize": 489,
+      "Description": "",
+      "Timeout": 4,
+      "MemorySize": 512,
+      "LastModified": "2021-11-16T05:49:42.159+0000",
+      "CodeSha256": "DKXcFhD6AUZ5Jk+j5SVvHiqnAiO8tgCd/TatKH46Qhg=",
+      "Version": "$LATEST",
+      "TracingConfig": {
+        "Mode": "PassThrough"
+      },
+      "RevisionId": "328e01eb-1c24-4329-abbf-0ba289373b32",
+      "PackageType": "Zip",
+      "Architectures": [
+        "x86_64"
+      ]
+    }
+  ]
+}
